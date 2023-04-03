@@ -17,6 +17,14 @@
     width: 32%;
 }
 
+#produtos .card-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    white-space: pre-wrap;
+}
+
 #categorias li h6 {
     width: 100% ;
     display: flex;

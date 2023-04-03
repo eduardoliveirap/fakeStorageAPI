@@ -25,7 +25,7 @@ function buscarProdutos() {
                 <img src="${cada.image}" alt="" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">${cada.title}</h5>
-                    <p class="card-text">${cada.description}</p>
+                    <p class="card-text text-wrap">${cada.description}</p>
                     <a href="" class="btn btn-primary">Adicionar ao carrinho</a>
                 </div>
             </div>
