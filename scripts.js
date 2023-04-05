@@ -8,7 +8,7 @@
             categorias.innerHTML += `
             <li class="list-group-item">
             <h6>
-            <input name="${cada}" type="checkbox" onClick="filtro()">
+            <input name="${cada.replace(" ","-")}" type="checkbox" onClick="filtro()">
             <span>${cada}</span>
         </h6>
         </li>`
