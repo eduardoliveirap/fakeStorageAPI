@@ -17,12 +17,15 @@
     width: 32%;
 }
 
-#produtos .card-text {
+#produtos .card-text , #produtos .card-title {
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     white-space: pre-wrap;
+}
+#produtos .card-title {
+    -webkit-line-clamp: 1;
 }
 
 #categorias li h6 {
@@ -35,4 +38,11 @@
 #categorias li span {
     display: block;
     line-height: 26px;
+}
+
+#produtos .card img {
+    object-fit: contain;
+    height: 250px;
+    padding: 16px;
+
 }
